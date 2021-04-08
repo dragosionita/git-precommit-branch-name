@@ -1,0 +1,19 @@
+{
+  "name": "git-precommit-branch-name",
+  "version": "1.0.0",
+  "description": "Put automatically your branch name in your commit message.",
+  "main": "index.js",
+  "bin": {
+    "git-precommit-branch-name": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dragos Ionita",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.2.1",
+    "git-repo-name": "^1.0.1",
+    "prompt-confirm": "^2.0.4"
+  }
+}
