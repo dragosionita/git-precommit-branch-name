@@ -1,7 +1,7 @@
 {
   "name": "git-precommit-branch-name",
   "version": "1.0.0",
-  "description": "Put automatically your branch name in your commit message.",
+  "description": "Put automatically your branch name in your git commit message.",
   "main": "index.js",
   "bin": {
     "git-precommit-branch-name": "./bin/index.js"
@@ -11,6 +11,10 @@
   },
   "author": "Dragos Ionita",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dragosionita/git-precommit-branch-name.git"
+  },
   "dependencies": {
     "colors": "^1.2.1",
     "git-repo-name": "^1.0.1",
