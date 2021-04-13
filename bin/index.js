@@ -16,7 +16,7 @@ writeFile = () => {
   fs.readFile(path.join(__dirname, '..', 'template/prepare-commit-msg'), 'utf-8', (err, data) => {
     if (err) throw 'Template file not found.';
     
-    fs.writeFile(path.join(hooksGitPath, 'prepare-commit-msg-test'), data, (err) => {
+    fs.writeFile(path.join(hooksGitPath, 'prepare-commit-msg'), data, (err) => {
       if (err) throw err;
       console.log(colors.green('Done! Your next commit message will contain the branch name.'));
     });

@@ -1,6 +1,6 @@
 {
   "name": "git-precommit-branch-name",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Put automatically your branch name in your git commit message.",
   "main": "index.js",
   "bin": {
