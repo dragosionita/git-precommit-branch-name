@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: git-precommit-branch-name
+  annotations:
+    github.com/project-slug: dragosionita/git-precommit-branch-name
+spec:
+  type: other
+  lifecycle: unknown
+  owner: dragos@adoreme.com
