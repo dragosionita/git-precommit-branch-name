@@ -4,6 +4,10 @@ metadata:
   name: git-precommit-branch-name
   annotations:
     github.com/project-slug: dragosionita/git-precommit-branch-name
+  links:
+    - url: https://www.npmjs.com/package/git-precommit-branch-name
+      title: Git Precommit Branch Name
+      icon: tool
 spec:
   type: other
   lifecycle: unknown
