@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: git Precommit Branch Name
-  description: Put automatically your branch name in your git commit message.
+  name: Git Precommit Branch Name
+  description: >Put automatically your branch name in your git commit message.
   annotations:
     github.com/project-slug: dragosionita/git-precommit-branch-name
   links:
